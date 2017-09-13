@@ -1,10 +1,19 @@
 function theBeatlesPlay(musicians,instruments){
   var newStrings = [];
   for (var i = 0; i<=musicians.length-1; i++) {
+  newStrings.push(`${musicians[i]} plays ${instruments[i]}`);
+}
+  return newStrings;
+}
+/*
+function theBeatlesPlay(musicians,instruments){
+  var newStrings = [];
+  for (var i = 0; i<=musicians.length-1; i++) {
   newStrings[i]= (musicians[i]+" plays "+instruments[i]);
 }
   return newStrings;
 }
+*/
 
 function johnLennonFacts(facts){
   var strings = []
